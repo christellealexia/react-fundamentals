@@ -1,22 +1,8 @@
-# Hello World in JS
+# Generate the Root Node
 
-<EpicVideo url="https://www.epicreact.dev/workshops/react-fundamentals/hello-world-in-js" />
+<EpicVideo url="https://www.epicreact.dev/workshops/react-fundamentals/generate-the-root-node" />
 
-👨‍💼 It's important to have a basic understanding of how to generate and interact
-with DOM nodes using JavaScript because it will help you understand how React
-works under the hood a little better. So in this exercise we're actually not
-going to use React at all. Instead we're going to use JavaScript to create a
-`div` DOM node with the text "Hello World" and insert that DOM node into the
-document.
-
-🐨 We'll be in <InlineFile file="index.html" /> to help guide you through making
-this work! See you there!
-
-👨‍💼 Once you're finished, open up the
-[browser devtools](https://developer.chrome.com/docs/devtools) so
-you can check the DOM is what you expect it to be.
-
-{/* prettier-ignore */}
-<callout-info class="aside">
-💡 Tip: you may find it useful to{' '}<a target="_blank" href="/app/playground">open the playground in a separate tab</a>{'.'}
-</callout-info>
+Rather than having the `root` node in the HTML, see if you can create that one
+using JavaScript as well. Remove the `<div id="root"></div>` from the HTML and
+instead of trying to find it with `document.getElementById('root')`, create it
+and append it to the `document.body`.
